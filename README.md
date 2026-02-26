@@ -23,7 +23,7 @@ This project implements a complete pipeline that performs:
 The system was tested on the official **SoccerNet Tracking 2023 dataset** and evaluated using the simulation tool provided by the course instructors.
 
 Full technical details are available in:  
-📄 `7 - Documentazione_Artificial_Vision_Cirillo_Fasolino.pdf`
+📄 `1 - Documentazione_Artificial_Vision_Cirillo_Fasolino.pdf`
 
 * * *
 
@@ -115,18 +115,27 @@ The system was evaluated using the official simulator provided by the course (no
 
 ## 📂 Repository Structure
 
+```
 Code📦 soccer-players-tracking  
-├── 0 - Contest presentation.pdf    
-├── 1 - dataset_download.py  
-├── 2 - create_behaviour_gt.ipynb  
-├── 3 - dataset_conversion.ipynb  
-├── 4 - yolo_training.ipynb  
-├── 5 - yolo_validation.ipynb  
-├── 6 - best_yolo12m_v2.pt  
-├── 7 - Documentazione_Artificial_Vision_Cirillo_Fasolino.pdf   
-├── 8 - tracking_pipeline_inference_script.ipynb  
-├── 9 - output_simulator.txt  
+├── 📁 docs  
+│   ├── 0 - Contest presentation.pdf  
+│   ├── 1 - Documentazione_Artificial_Vision_Cirillo_Fasolino.pdf  
+│   └── 2 - output_simulator.txt  
+│  
+├── 📁 scripts  
+│   ├── 0 - dataset_download.py  
+│   ├── 1 - create_behavior_gt.ipynb  
+│   ├── 2 - dataset_conversion.ipynb  
+│   ├── 3 - yolo_training.ipynb  
+│   ├── 4 - yolo_validation.ipynb  
+│   └── 5 - tracking_pipeline_inference_script.ipynb  
+│  
+├── 📁 weights  
+│   └── best_yolo12m_v2.pt  
+│  
+├── LICENSE  
 └── README.md
+```
 
 ---
 
