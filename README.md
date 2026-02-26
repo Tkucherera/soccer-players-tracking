@@ -27,6 +27,16 @@ Full technical details are available in:
 
 * * *
 
+📸 System Overview Snapshot
+---------------------------
+
+
+https://github.com/user-attachments/assets/5996374a-c95f-4319-a4a7-bcc40bbd1adb
+
+
+
+* * *
+
 🌍 Language Note
 ----------------
 
