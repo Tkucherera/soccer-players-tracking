@@ -113,7 +113,7 @@ Code📦 soccer-players-tracking
 ├── 4 - yolo_training.ipynb  
 ├── 5 - yolo_validation.ipynb  
 ├── 6 - best_yolo12m_v2.pt  
-├── 7 - Documentazione_Artificial_Vision_Cirillo_Fasolino.pdf
+├── 7 - Documentazione_Artificial_Vision_Cirillo_Fasolino.pdf   
 ├── 8 - tracking_pipeline_inference_script.ipynb  
 ├── 9 - output_simulator.txt  
 └── README.md
