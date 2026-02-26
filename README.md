@@ -230,7 +230,7 @@ If you find it interesting, feel free to ⭐ the repository.
 -----------
 
 ```
-Decentralized Credential Management, Academic Credentials, Merkle Tree Credentials, Blockchain Revocation, Selective Disclosure, Privacy-Preserving Credentials, Secure Key Exchange Protocol, RSA & AES Encryption, Python Cryptography Project, Erasmus Credential Sharing, Certificate Revocation List Blockchain, Secure University Data Exchange, Project Work Algorithms and Protocols for Security, Cryptography-Based Credential System, Merkle Proof Verification, Student Credential Privacy, University of Salerno Project
+Soccer Player Tracking, SoccerNet Tracking 2023, Multi-Object Tracking, MOT Computer Vision, YOLO12 Fine-Tuning, YOLO Soccer Detection, Bot SORT Tracker, ByteTrack Tracking, Player Re-Identification, ReID Computer Vision, Camera Motion Compensation, Optical Flow Tracking, Sports Video Analytics, Soccer Video Understanding, ROI Behavior Analysis, HOTA Metric, HOTA 0.5 Evaluation, Detection and Association Accuracy, Normalized MAE, PTBS Score, Deep Learning for Sports, Broadcast Video Analysis, Real-Time Object Tracking, Ultralytics YOLO, Computer Vision MSc Project, Artificial Vision Project, Python Computer Vision, Soccer Analytics AI, End-to-End Vision Pipeline, University of Salerno Project
 ```
 
 * * *
