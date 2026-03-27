@@ -1,0 +1,67 @@
+detector:
+  model_path: weights/best_yolo12m_v2.pt
+  conf_threshold: 0.4
+  imgsz: 1024
+  device: cpu
+
+pitch_masker:
+  grass_hsv_lower: [30, 40, 40]
+  grass_hsv_upper: [85, 255, 255]
+
+tracker:
+  reid_model_path: weights/osnet_x0_25_msmt17.pt
+  device: cpu
+  min_hits: 3
+  half: false
+
+homography:
+  pitch_length_m: 105
+  pitch_width_m: 68
+  grid_size_m: 5
+  matrix_path: data/homography.npy
+
+stats:
+  fps: 25
+  grid_size_m: 5
+  smoothing_window: 5
+
+event_detector:
+  fps: 25
+  ball_possession_radius_m: 1.2
+  duel_radius_m: 1.5
+  tackle_decel_threshold: 3.0
+  dribble_direction_deg: 45
+  dribble_opponent_radius_m: 2.0
+  save_goal_margin_m: 2.0
+  pass_max_frames: 30
+
+heat_map:
+  pitch_length_m: 105
+  pitch_width_m: 68
+  grid_size_m: 5
+  render_width: 1050
+  render_height: 680
+
+visualiser:
+  show_speed: true
+  show_name: true
+  show_minimap: true
+  minimap_scale: 6
+  write_video: true
+  output_path: output/annotated.mp4
+
+output:
+  output_dir: output/
+  match_id: match_002
+  write_jsonl: true
+  write_csv: true
+  fps: 25
+
+jersey_ocr:
+  run_every_n_frames: 10
+  min_confirmations: 3
+
+#roster:
+#  path: data/roster.json
+
+video_source: "videos/croatia_2_3s.webm"
