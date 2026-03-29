@@ -70,7 +70,7 @@ with OutputWriter(config["output"]) as writer:
         # 3. pitch coordinates for all active tracks
         pitch_positions = {}
         for track in tracks:
-            foot = Detector.footpoint(track.bbox)   # fixed typo from foopoint
+            foot = Detector.footpoint(track.bbox) 
             pos  = homography.pixel_to_pitch(*foot)
             if pos:
                 pitch_positions[track.track_id] = pos
@@ -83,8 +83,8 @@ with OutputWriter(config["output"]) as writer:
             stats_manager.update(track, pos, meta)
 
             # try out this jersey ocr
-            if meta.frame_number % config["jersey_ocr"]["run_every_n_frames"] == 0:
-                jersey_ocr.update(track, frame, registry)
+            # if meta.frame_number % config["jersey_ocr"]["run_every_n_frames"] == 0:
+            #    jersey_ocr.update(track, frame, registry)
 
             writer.write_frame(
                 track, pos, stats_manager.get(track.track_id), meta
